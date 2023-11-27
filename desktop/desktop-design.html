@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Kumbh+Sans"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="desktop-style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <img class="img2" src="/images/illustration-box-desktop.svg" alt="" />
+      <div class="center">
+        <div class="cen1">
+          <img
+            class="img1"
+            src="/images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+        </div>
+        <div class="cen2">
+          <div class="head">
+            <h1>FAQ</h1>
+          </div>
+          <div class="ques">
+            <p id="ques1" class="ques1 hide2" onclick="drop1()">
+              How many team members can I invite?
+            </p>
+            <button class="arrow" onclick="drop1()">
+              <img src="/images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer hide" id="A1">
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <hr />
+          <div class="ques">
+            <p id="ques2" class="ques1 hide2" onclick="drop2()">
+              What is the maximum file upload size?
+            </p>
+            <button class="arrow" onclick="drop2()">
+              <img src="/images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer hide" id="A2">
+            <p>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+          <hr />
+          <div class="ques">
+            <p id="ques3" class="ques1 hide2" onclick="drop3()">
+              How do I reset my password?
+            </p>
+            <button class="arrow" onclick="drop3()">
+              <img src="/images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer hide" id="A3">
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+          <hr />
+          <div class="ques">
+            <p id="ques4" class="ques1 hide2" onclick="drop4()">
+              Can I cancel my subscription?
+            </p>
+            <button class="arrow" onclick="drop4()">
+              <img src="/images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer hide" id="A4">
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+          <hr />
+          <div class="ques">
+            <p id="ques5" class="ques1 hide2" onclick="drop5()">
+              Do you provide additional support?
+            </p>
+            <button class="arrow" onclick="drop5()">
+              <img src="/images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer hide" id="A5">
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <script src="deskop-script.js"></script>
+  </body>
+</html>
